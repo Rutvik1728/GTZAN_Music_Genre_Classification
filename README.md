@@ -1,14 +1,23 @@
 Music Genre Classification
 ===
-Sequence of Classification
+This project is about classification of music based on their genres with the help of Deep Learning and DSP
 ---
-```sequence
-Audio File->Spectrogram:
-Spectrogram->CNN:
-CNN->FCNN:
-FCNN->Classification:
+
+
+---
+
+
+# Sequence of Classification
+
+```mermaid
+graph LR
+
+Audio_File ==> Spectrogram ==> CNN ==> FCNN ==> Genre_Classification
 ```
-# Sequence of Operations
+
+---
+
+
 - An audio file is imported
 - The waveform and sample rate of the audio file is extracted
 - From this waveform, Its spectrogram is generated
@@ -16,6 +25,24 @@ FCNN->Classification:
 - The output of the CNN is fed into a FCNN
 - From FCNN the classified music genre is obtained
 
-# About
+
+---
+
+
+# Graphs
+
+![](https://i.imgur.com/1QN4mC1.png)
+
+![](https://i.imgur.com/fGkeNLH.png)
+
+
+---
+
+
+# Results
+:::success
 - Max Training Set Accuracy : 100%
+:::
+:::success
 - Max Test Set Accuracy : 65%
+:::
