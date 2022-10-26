@@ -40,9 +40,6 @@ Audio_File ==> Spectrogram ==> CNN ==> FCNN ==> Genre_Classification
 
 
 # Results
-:::success
-- Max Training Set Accuracy : 100%
-:::
-:::success
-- Max Test Set Accuracy : 65%
-:::
+> Max Training Set Accuracy : 100%
+
+> Max Test Set Accuracy : 65%
